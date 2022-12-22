@@ -1,0 +1,25 @@
+{
+    "schemaVersion": "1.0.0",
+    "data": {
+        "helloText": {
+            "type": "STRING",
+            "uiValue": "{{i18n.helloText}}"
+        },
+        "sideNavCommandPanelData": {
+            "slide": "FLOAT",
+            "direction": "LEFT_TO_RIGHT",
+            "animation": false,
+            "width": "STANDARD",
+            "height": "FULL"
+        },
+        "pinAnchor": "commandPanelPinAnchor",
+        "projectsAnchor": "commandPanelZCCAnchor",
+        "filterBox": {
+            "displayName": "MyFilter",
+            "type": "STRING"
+        }
+    },
+    "i18n": {
+        "helloText": [ "helloModuleMessages" ]
+    }
+}

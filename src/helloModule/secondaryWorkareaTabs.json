@@ -1,0 +1,11 @@
+{
+    "schema": "1.0.0.0",
+    "tabs": {
+        "favSelectionDetails": {
+            "name": "Overview",
+            "priority": 50,
+            "view": "hello",
+            "visibleWhen": "1===1"
+        }
+    }
+}

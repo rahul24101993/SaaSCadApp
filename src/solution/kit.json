@@ -1,0 +1,25 @@
+{
+    "name": "my-swf-project-kit",
+    "level": 6,
+    "solutionDef": {
+        "solutionId": "my-swf-project-solution",
+        "solutionName": "my-swf-project-solution",
+        "solutionVersion": "1.0",
+        "browserTitle": "SaaS CAD",
+        "brandName": "Brand my-swf-project",
+        "companyName": "Siemens PLM Software",
+        "copyrightText": "Copyright © 2022 Siemens Product Lifecycle Management Software Inc.",
+        "workspaces": [
+            "newWorkspace"
+        ],
+        "authenticator": "helloAuthenticator",
+        "defaultWorkspace": "newWorkspace"
+    },
+    "kitDeps": [
+        "afx"
+    ],
+    "modules": [
+        "helloModule",
+        "siteModule"
+    ]
+}

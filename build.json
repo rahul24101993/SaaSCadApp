@@ -1,0 +1,6 @@
+{
+    "srcPaths": [
+        "node_modules/@swf/core/@(repo|src|test)",
+        "src"
+    ]
+}

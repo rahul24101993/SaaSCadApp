@@ -1,0 +1,5 @@
+{
+    "helloAuthenticator": {
+        "dep": "js/helloAuthenticatorService"
+    }
+}

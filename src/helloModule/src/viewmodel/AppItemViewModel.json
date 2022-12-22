@@ -1,0 +1,17 @@
+{
+    "schemaVersion": "1.0.0",
+    "actions": {
+        "render": {
+            "method": "appItemRenderFunction",
+            "deps": "js/AppItemService"
+        }
+    },
+    "data": {},
+    "conditions": {},
+    "onEvent": [],
+    "lifecycleHooks": {
+        "render": "render"
+    },
+    "props": {
+    }
+}

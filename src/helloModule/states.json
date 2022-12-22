@@ -1,0 +1,8 @@
+{
+    "hello": {
+        "url": "/hello",
+        "data": {},
+        "view": "hello",
+        "dependencies": []
+    }
+}

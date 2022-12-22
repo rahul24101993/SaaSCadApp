@@ -1,0 +1,49 @@
+{
+    "commands": {
+        "commandPanelPinCommand": {
+            "iconId": "cmdPin",
+            "isGroup": false,
+            "title": "Pin"
+        }
+    },
+    "commandHandlers": {
+        "commandPanelPinCommandHandler": {
+            "id": "commandPanelPinCommand",
+            "action": "pinCommandAction",
+            "activeWhen": true,
+            "visibleWhen": true
+        }
+    },
+    "commandPlacements": {
+        "panelPinCommandPlacement": {
+            "id": "commandPanelPinCommand",
+            "uiAnchor": "commandPanelPinAnchor",
+            "priority": 100
+        }
+    },
+    "actions": {
+        "pinCommandAction": {
+            "actionType": "Event",
+            "method": "Event",
+            "inputData": {
+                "events": [
+                    {
+                        "name": "TestMessageForPinCommand"
+                    }
+                ]
+            }
+        }
+    },
+    "onEvent": [
+        {
+            "eventId": "TestMessageForPinCommand",
+            "message": "PressedPinCommandMessage"
+        }
+    ],
+    "messages": {
+        "PressedPinCommandMessage": {
+            "messageType": "INFO",
+            "messageText": "Pin command has been clicked."
+        }
+    }
+}
